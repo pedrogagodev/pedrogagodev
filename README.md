@@ -27,6 +27,7 @@ I consider myself a person who **enjoys learning new things** and I have an open
 <p>
   <img title="Git" alt="Git" width="30px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/git.png" />
   <img title="GitHub" alt="GitHub" width="30px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/github.png" />
+  <img title="Vitest" alt="Vitest" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitest/vitest-plain.svg" />
 
 </p>
 
