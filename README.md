@@ -1,7 +1,7 @@
 # Hey there! I'm Pedro Oliveira
 ## 👨‍💻 About Me
 
-I am a **self-taught software developer**, I have loved solving problems since before I started programming.
+I am a **self-taught full stack software developer**, I have loved solving problems since before I started programming.
 
 I consider myself a person who **enjoys learning new things** and I have an open mind to listen to what more experienced people have to say to me.
 
