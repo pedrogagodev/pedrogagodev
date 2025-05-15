@@ -14,8 +14,7 @@ I consider myself a person who **enjoys learning new things** and I have an open
   <img title="React" alt="React" width="50px" height="50px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/react.png" />
   <img title="Next.js" alt="Next.js" width="50px" height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
   <img title="Node.js" alt="Node.js" width="50px" height="50px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/node_js.png" />
-  <img title="Fastify" alt="Fastify" width="50px" height="50px" src="https://github.com/marwin1991/profile-technology-icons/blob/main/icons/fastify.png" />
-  <img title="Express.js" alt="Express.js" width="50px" height="50px" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/express.png" />
+  <img width="50" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/java.png" alt="Java" title="Java"/>
 </p>
 
 ### **Databases & Cloud**
