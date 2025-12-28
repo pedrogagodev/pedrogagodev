@@ -6,7 +6,7 @@ I build digital products with a strong focus on **real business impact**, **user
 I currently work on a **global product**, with a distributed team and headquarters in the UK, developing solutions that connect acquisition, onboarding, and user activation in a clear and scalable way.
 
 My work goes beyond implementing features. I focus on **product flows**, **UX decisions**, and how software can reduce friction for both users and internal teams.  
-I have experience building everything from **landing pages and conversion funnels** to **guided onboardings** and complex dashboards, always prioritizing simplicity, clarity, and operational efficiency.
+I have experience building everything from **landing pages and conversion funnels** to **tourism platforms** and complex dashboards, always prioritizing simplicity, clarity, and operational efficiency.
 
 ---
 
