@@ -17,6 +17,19 @@ I have experience building everything from **landing pages and conversion funnel
 
 ## **Professional projects**
 
+### Borderless Coding (UK Startup)  
+**Lead Engineer — Internal Systems**
+
+Led the design and development of internal systems and automation across the company, focusing on operational efficiency, data reliability, and scalability.
+
+- Built and maintained **internal platforms** for tracking performance, sprint execution, and goal achievement across teams  
+- Designed **operational dashboards** with full **audit logging** of all actions, enabling traceability and safe data rollback  
+- Reduced reliance on manual processes by implementing **automation workflows** across core operations  
+- Improved internal visibility by centralizing data and creating **real-time insights for decision-making**  
+- Developed systems using **Next.js**, deployed on **Cloudflare**, with focus on performance, reliability, and maintainability  
+
+---
+
 ### **Guimaps**
 A tourism platform that connects **licensed guides, local partners, and travelers** in a single ecosystem.
 
@@ -28,15 +41,6 @@ I worked as a **Full Stack Engineer**, building:
 This project was strongly focused on **UX**, **complex workflow design**, and multiple user roles.
 
 🔗 [Website](https://guimaps.com.br)
-
----
-### Borderless Coding (UK Startup)
-Worked at a global company focused on:
-- User acquisition and conversion funnels (quizzes, landing pages, seasonal campaigns such as Black Friday)  
-- **Guided onboarding experiences** for user activation  
-- Reducing operational friction and reliance on manual support  
-
-Projects were built with **Next.js** and deployed on **Cloudflare**, prioritizing performance, reliability, and clear user flows.
 
 ---
 
