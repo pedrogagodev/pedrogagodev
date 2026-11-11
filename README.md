@@ -25,14 +25,20 @@ Before AI, I spent years building full stack products end to end — funnels, da
 - Built internal platforms and **operational dashboards** with full audit logging, enabling traceability and safe rollback
 - Replaced manual processes with **automation workflows** across core operations (Next.js, Cloudflare)
 
+### Rime Tecnologia — Full Stack Developer
+- Built **LLM chatbots on the OpenAI API** starting in 2023, months after ChatGPT launched
+- Delivered **7+ web apps** (React, Node.js, FastAPI) for multiple clients, owning requirements gathering and cutting rework by 45%
+- Set up **async messaging on RabbitMQ**: 500+ messages a day at 99.2% delivery success
+- Ran services on **AWS** (EC2, S3, ALB) with automated rollback deploys and CloudWatch alarms
+
 ---
 
 ## Other projects
 
 ### DxGen — AI documentation agent
-A developer-experience product that keeps documentation up to date without anyone writing it. I built the full stack, including the agent that:
-- Reads the repository to understand the project's context
-- Generates and updates READMEs, architecture diagrams, and code summaries
+A developer-experience product that keeps documentation up to date without anyone writing it. I built the full stack, including the AI layer:
+- **RAG over the codebase**: the repository is chunked, embedded, and indexed so the agent retrieves the relevant files and context before writing anything
+- Generates and updates READMEs, architecture diagrams, and code summaries grounded in that retrieved context
 - Reviews pull requests and writes mini-docs flagging potential issues
 
 ### Guimaps — tourism platform
