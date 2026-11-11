@@ -1,62 +1,47 @@
-# 👋 Pedro Henrique
+# Pedro Henrique Gago de Oliveira
 
-**Full Stack Engineer**
+**AI Engineer · Agents, RAG & MCP on production SaaS**
 
-I build digital products with a strong focus on **real business impact**, **user experience**, and **end-to-end workflows that actually work**.  
-I currently work on a **global product**, with a distributed team and headquarters in the UK, developing solutions that connect acquisition, onboarding, and user activation in a clear and scalable way.
+I build the AI layer of a multi-tenant SaaS: the MCP server agents use to reach product data, retrieval over company knowledge, LangGraph pipelines that run with no human in the loop, the context each agent turn receives, and the evals and tracing that make it safe to ship.
 
-My work goes beyond implementing features. I focus on **product flows**, **UX decisions**, and how software can reduce friction for both users and internal teams.  
-I have experience building everything from **landing pages and conversion funnels** to **tourism platforms** and complex dashboards, always prioritizing simplicity, clarity, and operational efficiency.
+Before AI, I spent years building full stack products end to end — funnels, dashboards, multi-role platforms — so I care as much about the product flow as about the model.
 
----
-
-🔗 **Links**  
-- [LinkedIn](https://www.linkedin.com/in/pedrogagodev)  
-- [Gmail](mailto:pedrogagodev@gmail.com)  
----
-
-## **Professional projects**
-
-### Borderless Coding (UK Startup)  
-**Lead Engineer — Internal Systems**
-
-Led the design and development of internal systems and automation across the company, focusing on operational efficiency, data reliability, and scalability.
-
-- Built and maintained **internal platforms** for tracking performance, sprint execution, and goal achievement across teams  
-- Designed **operational dashboards** with full **audit logging** of all actions, enabling traceability and safe data rollback  
-- Reduced reliance on manual processes by implementing **automation workflows** across core operations  
-- Improved internal visibility by centralizing data and creating **real-time insights for decision-making**  
-- Developed systems using **Next.js**, deployed on **Cloudflare**, with focus on performance, reliability, and maintainability  
+🔗 [LinkedIn](https://www.linkedin.com/in/pedrogagodev/) · [Email](mailto:pedrogagodev@gmail.com)
 
 ---
 
-### **Guimaps**
-A tourism platform that connects **licensed guides, local partners, and travelers** in a single ecosystem.
+## What I work on
 
-I worked as a **Full Stack Engineer**, building:
-- A dashboard for guides to manage tours and experiences  
-- A dashboard for partners (bars, venues, event spaces, etc.) to offer their services  
-- A flow for travelers to create **custom itineraries**, combining tours and partner experiences  
+### Franchise Frameworks — Full Stack & AI Engineer
+- **MCP server** (Fastify) giving LLM agents access to CRM data and the knowledge base through the product API, so every agent runs with the user's permissions and only sees its own tenant
+- **Retrieval** over internal docs and decision records, exposed to agents as a single search tool
+- **Unattended LangGraph pipeline** turning sales-call transcripts into schema-validated CRM fields, on idempotent background jobs with retries, LangSmith tracing, and Sentry monitoring
+- **In-app AI assistant** (in progress): SSE streaming with AG-UI, tool calls over live data, long-term memory, server-side context assembly within a token budget
+- **Eval harness** (in progress): replayed scenarios, LLM judge plus deterministic tool-call checks, regressions block the release
 
-This project was strongly focused on **UX**, **complex workflow design**, and multiple user roles.
+### Borderless Coding — Full Stack Lead Engineer
+- Brought **AI coding agents** (Claude Code, Codex, Cursor) into the team's workflow, with shared skills, hooks, and project instructions
+- Set up a **multi-agent dev loop**: an orchestrator routes tasks to implementer agents, a separate reviewer agent checks each diff, every agent isolated in its own git worktree
+- Built internal platforms and **operational dashboards** with full audit logging, enabling traceability and safe rollback
+- Replaced manual processes with **automation workflows** across core operations (Next.js, Cloudflare)
 
-🔗 [Website](https://guimaps.com.br)
+---
+
+## Other projects
+
+### DxGen — AI documentation agent
+A developer-experience product that keeps documentation up to date without anyone writing it. I built the full stack, including the agent that:
+- Reads the repository to understand the project's context
+- Generates and updates READMEs, architecture diagrams, and code summaries
+- Reviews pull requests and writes mini-docs flagging potential issues
+
+### Guimaps — tourism platform
+A platform connecting licensed guides, local partners, and travelers. As Full Stack Engineer I built the guide dashboard, the partner dashboard (venues, bars, event spaces), and the flow where travelers build custom itineraries from tours and partner experiences — three user roles, one coherent workflow.
 
 ---
 
-## 📌 Relevant projects
-
-### **DxGen**
-A **Developer Experience** product that automates one of the most ignored (and painful) problems for developers: **documentation**.
-
-I worked as a **Full Stack Engineer**, including the **AI layer**, building an agent that:
-- Understands the project and repository context  
-- Automatically generates and updates documentation  
-- Creates READMEs, architecture diagrams, and code summaries  
-- Analyzes pull requests and produces mini-docs with potential issues  
-
-The main goal was to design an **extremely simple user flow**, turning a boring task into something almost invisible.
-
-🔗 [Landing Page](https://hb-03-2025-dxgen-frontend.vercel.app/)
-
----
+## Stack
+**LLM & agents:** LangGraph · LangChain · MCP · RAG · hybrid search · context engineering · memory · multi-agent orchestration · LLM-as-judge evals · AG-UI · Claude & OpenAI APIs  
+**Developer tools:** Claude Code · Codex · Cursor · agent skills · hooks  
+**Backend & frontend:** TypeScript · Python · Node.js · Fastify · FastAPI · React · Next.js · PostgreSQL · PostGIS · Redis · RabbitMQ · Inngest  
+**Cloud & ops:** AWS · Kubernetes · Docker · Cloudflare · Vercel · GitHub Actions · Sentry · LangSmith · PostHog
